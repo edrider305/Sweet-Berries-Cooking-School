@@ -1,13 +1,40 @@
-:root {
-    /* ==================== SITE STYLES =================== */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    /* ================== BACKGROUND COLOR ================ */
+/* ==================== SITE STYLES =================== */
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+h1,
+h2 {
+    font-weight: 400;
+}
+h3 {
+    font-weight: 700;
+}
+
+:root {
+    
+
+    /* ================== COLOR ================ */
+    background-color: #f5f3ef;
+        --Card: #ffffff;
+        --Accent: #febd2f;
+        --Text-primary: #000000;
+        --Text-Seconday: #646464;
+        --Outline: #dcdcdc;
 
 
     /* =================== TYPOGRAPHY ==================== */
 
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto', sans-serif;
+
 
     /* =================== SPACING ======================= */
 }
