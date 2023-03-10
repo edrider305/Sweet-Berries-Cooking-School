@@ -8,7 +8,7 @@
     }
 
     /* ==================== SITE STYLES =================== */
-
+/* Great work on being detailed oriented and giving each component the right font family! */
     h1,
     h2,
     h3 {        
@@ -71,13 +71,15 @@
 
 
 /* =============================== CONTAINER ================================ */
-    .grid-container {
-        width: 80%;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 100px auto auto 80px;
-        grid-template-areas: 
+/* Beautiful work on creating the grid container! This is amazing!👏 */
+.grid-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px auto auto 80px;
+    /* Superb! You’ve used grid template areas correctly!     */
+    grid-template-areas: 
         "nav nav nav"
         "header header header"
         "main main main"
@@ -85,6 +87,7 @@
         
     }
     /* =================== Nav Section ======================= */
+        /* Beautiful work on using CSS Grid and flex box together! */
         nav {
             grid-area: nav;
             display: flex;
